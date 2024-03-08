@@ -101,3 +101,21 @@ h3{
 #footer div{
     text-align: center;
 }
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: left;
+}
+.jobs-data-row td{
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
